@@ -2,17 +2,19 @@ using UnityEngine;
 
 public class ChefController : StateMachineBehaviour<ChefController>
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override void Start()
     {
-        
+        base.Start();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        UpdateState();
     }
+}
+
+public class Player : ChefController
+{
 }
 
 // public class IdleState : StateBase<ChefController>
