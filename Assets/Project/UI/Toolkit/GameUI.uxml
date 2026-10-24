@@ -1,0 +1,170 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/UI/Toolkit/GameUI.uss?fileID=7433441132597879392&amp;guid=003cbfec66524af28ab0ef9cb63dcccc&amp;type=3#GameUI"/>
+    <ui:VisualElement name="rootScreen" picking-mode="Ignore" class="screen-root">
+        <ui:VisualElement name="hudHeader" picking-mode="Ignore" class="hud-header">
+            <ui:VisualElement name="brandingContainer" class="branding-container">
+                <ui:VisualElement name="chefAvatar" class="chef-avatar"/>
+                <ui:VisualElement class="branding-text-group">
+                    <ui:Label name="appTitle" text="TENTWORKS KITCHEN" class="brand-title"/>
+                    <ui:Label name="appSubtitle" text="CHEF RUSH" class="brand-subtitle"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="statsControls" class="stats-controls">
+                <ui:VisualElement class="stat-pill">
+                    <ui:VisualElement class="stat-icon timer-icon"/>
+                    <ui:VisualElement class="stat-meta">
+                        <ui:Label text="TIME" class="stat-label"/>
+                        <ui:Label name="timerLabel" text="02:00" class="stat-value"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-pill">
+                    <ui:VisualElement class="stat-icon score-icon"/>
+                    <ui:VisualElement class="stat-meta">
+                        <ui:Label text="SCORE" class="stat-label"/>
+                        <ui:Label name="scoreLabel" text="0000" class="stat-value"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-pill">
+                    <ui:VisualElement class="stat-icon highscore-icon"/>
+                    <ui:VisualElement class="stat-meta">
+                        <ui:Label text="BEST" class="stat-label"/>
+                        <ui:Label name="highScoreLabel" text="0000" class="stat-value"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Button name="pauseButton" text="II" class="hud-btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="orderRail" picking-mode="Ignore" class="order-rail">
+            <ui:VisualElement name="orderCard0" class="order-card hidden">
+                <ui:VisualElement class="order-card-header">
+                    <ui:Label name="orderTitle0" text="ORDER #1" class="order-card-title"/>
+                    <ui:Label name="orderTimer0" text="00:00" class="order-card-timer"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="orderBadges0" class="order-badges-row">
+                    <ui:VisualElement name="badge0_0" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge0_1" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge0_2" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="orderCard1" class="order-card hidden">
+                <ui:VisualElement class="order-card-header">
+                    <ui:Label name="orderTitle1" text="ORDER #2" class="order-card-title"/>
+                    <ui:Label name="orderTimer1" text="00:00" class="order-card-timer"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="orderBadges1" class="order-badges-row">
+                    <ui:VisualElement name="badge1_0" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge1_1" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge1_2" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="orderCard2" class="order-card hidden">
+                <ui:VisualElement class="order-card-header">
+                    <ui:Label name="orderTitle2" text="ORDER #3" class="order-card-title"/>
+                    <ui:Label name="orderTimer2" text="00:00" class="order-card-timer"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="orderBadges2" class="order-badges-row">
+                    <ui:VisualElement name="badge2_0" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge2_1" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge2_2" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="orderCard3" class="order-card hidden">
+                <ui:VisualElement class="order-card-header">
+                    <ui:Label name="orderTitle3" text="ORDER #4" class="order-card-title"/>
+                    <ui:Label name="orderTimer3" text="00:00" class="order-card-timer"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="orderBadges3" class="order-badges-row">
+                    <ui:VisualElement name="badge3_0" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge3_1" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="badge3_2" class="ingredient-badge hidden">
+                        <ui:VisualElement class="badge-icon"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="playerInteractionContainer" picking-mode="Ignore" class="player-interaction-container">
+            <ui:VisualElement name="interactionTooltip" class="interaction-tooltip">
+                <ui:Label name="tooltipText" text="Hands empty" class="tooltip-label"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="actionButtonsRow" class="action-buttons-row">
+                <ui:Button name="pickButton" text="Pick" class="action-btn pick-btn"/>
+                <ui:Button name="dropButton" text="Drop" class="action-btn drop-btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="bottomLegendBar" picking-mode="Ignore" class="bottom-legend-bar">
+            <ui:VisualElement class="legend-bar-inner">
+                <ui:VisualElement class="legend-chip">
+                    <ui:Label text="WASD" class="legend-key"/>
+                    <ui:Label text="Move Chef" class="legend-desc"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="legend-chip">
+                    <ui:Label text="E / Space" class="legend-key"/>
+                    <ui:Label text="Pick Item" class="legend-desc"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="legend-chip">
+                    <ui:Label text="F" class="legend-key"/>
+                    <ui:Label text="Drop / Place" class="legend-desc"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="legend-chip">
+                    <ui:Label text="Stations" class="legend-key"/>
+                    <ui:Label text="Chop Board &amp; Stove" class="legend-desc"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="startOverlay" class="modal-overlay" style="opacity: 1; top: 0; left: 0;">
+            <ui:VisualElement class="modal-card" style="width: 626px;">
+                <ui:VisualElement class="modal-badge-icon chef-badge"/>
+                <ui:Label text="TENTWORKS KITCHEN" class="modal-title"/>
+                <ui:Label text="CHEF RUSH CHALLENGE" class="modal-subtitle"/>
+                <ui:Label text="Prepare and deliver delicious orders before time runs out! Pick ingredients, chop vegetables at the board, cook meat on the stove, and fulfill customer orders." class="modal-description" style="font-size: 20px;"/>
+                <ui:Button name="startButton" text="START COOKING" class="modal-action-btn primary-btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="pauseOverlay" class="modal-overlay hidden">
+            <ui:VisualElement class="modal-card">
+                <ui:Label text="GAME PAUSED" class="modal-title"/>
+                <ui:Label text="Take a breath, Chef! Ready to jump back in?" class="modal-subtitle"/>
+                <ui:VisualElement class="modal-button-stack">
+                    <ui:Button name="resumeButton" text="RESUME" class="modal-action-btn primary-btn"/>
+                    <ui:Button name="restartButton" text="RESTART" class="modal-action-btn secondary-btn"/>
+                    <ui:Button name="quitButton" text="QUIT" class="modal-action-btn danger-btn"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="roundCompleteOverlay" class="modal-overlay hidden">
+            <ui:VisualElement class="modal-card">
+                <ui:Label text="ROUND COMPLETED!" class="modal-title"/>
+                <ui:VisualElement class="score-highlight-container">
+                    <ui:Label text="FINAL SCORE" class="score-title"/>
+                    <ui:Label name="finalScoreLabel" text="0000" class="score-number"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="newHighScoreBadge" class="new-highscore-badge hidden">
+                    <ui:Label text="NEW HIGH SCORE!" class="new-highscore-text"/>
+                </ui:VisualElement>
+                <ui:Button name="playAgainButton" text="PLAY AGAIN" class="modal-action-btn primary-btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

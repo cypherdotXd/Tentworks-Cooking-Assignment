@@ -1,0 +1,319 @@
+{
+  "version": 3,
+  "skills": {
+    "2d-pixel-perfect": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/2d-pixel-perfect/SKILL.md",
+      "skillFolderHash": "a50066f747f08c550e78f43cfb57121bf70f81bc",
+      "installedAt": "2026-09-26T16:39:36.094Z",
+      "updatedAt": "2026-09-26T16:39:36.094Z"
+    },
+    "asset-transformer-toolkit": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/asset-transformer-toolkit/SKILL.md",
+      "skillFolderHash": "f287e902cc7fbb659042bfd37a37185336137a43",
+      "installedAt": "2026-09-26T16:39:36.096Z",
+      "updatedAt": "2026-09-26T16:39:36.096Z"
+    },
+    "audio-setup-mixers": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/audio-setup-mixers/SKILL.md",
+      "skillFolderHash": "14c2644e569c6c81b58a8b852ae60d7a131806da",
+      "installedAt": "2026-09-26T16:39:36.096Z",
+      "updatedAt": "2026-09-26T16:39:36.096Z"
+    },
+    "build-live-game": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/build-live-game/SKILL.md",
+      "skillFolderHash": "fd20d4cb5b5532c93377cce66f58fad4d78e9006",
+      "installedAt": "2026-09-26T16:39:36.097Z",
+      "updatedAt": "2026-09-26T16:39:36.097Z"
+    },
+    "generate-editor-search-query": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/generate-editor-search-query/SKILL.md",
+      "skillFolderHash": "23f63a73673bee4a26ad92ece9d022d7744b9b9b",
+      "installedAt": "2026-09-26T16:39:36.097Z",
+      "updatedAt": "2026-09-26T16:39:36.097Z"
+    },
+    "implement-in-app-purchases": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/implement-in-app-purchases/SKILL.md",
+      "skillFolderHash": "a05e92dd5ebc624d3229a4eee4cde782d1ab6b2a",
+      "installedAt": "2026-09-26T16:39:36.097Z",
+      "updatedAt": "2026-09-26T16:39:36.097Z"
+    },
+    "initialize-ai-navigation": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/initialize-ai-navigation/SKILL.md",
+      "skillFolderHash": "62bef9aa168389a3caea5b0416d29c901be69f61",
+      "installedAt": "2026-09-26T16:39:36.098Z",
+      "updatedAt": "2026-09-26T16:39:36.098Z"
+    },
+    "levelplay-unity-integration": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/levelplay-unity-integration/SKILL.md",
+      "skillFolderHash": "d623afcc27860445a006e65cc4c09b7c7d8ee52a",
+      "installedAt": "2026-09-26T16:39:36.098Z",
+      "updatedAt": "2026-09-26T16:39:36.098Z"
+    },
+    "localization": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/localization/SKILL.md",
+      "skillFolderHash": "fcaf951e007f8dd15c107d98130baf5968e8d57c",
+      "installedAt": "2026-09-26T16:39:36.098Z",
+      "updatedAt": "2026-09-26T16:39:36.098Z"
+    },
+    "manage-sprite-atlas": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/manage-sprite-atlas/SKILL.md",
+      "skillFolderHash": "ae9bad985833a8d5676c6a96494a731dcc8be9c5",
+      "installedAt": "2026-09-26T16:39:36.099Z",
+      "updatedAt": "2026-09-26T16:39:36.099Z"
+    },
+    "migrate-birp-to-urp": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/migrate-birp-to-urp/SKILL.md",
+      "skillFolderHash": "ab4673976fda08f53e8004fe98fba3e14f585a45",
+      "installedAt": "2026-09-26T16:39:36.100Z",
+      "updatedAt": "2026-09-26T16:39:36.100Z"
+    },
+    "new-unity-project": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/new-unity-project/SKILL.md",
+      "skillFolderHash": "dfbf5958988eb6503f3b23743cb8894f8ee11cb0",
+      "installedAt": "2026-09-26T16:39:36.100Z",
+      "updatedAt": "2026-09-26T16:39:36.100Z"
+    },
+    "optimize-audio": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/optimize-audio/SKILL.md",
+      "skillFolderHash": "06a333bafa540f7d56f9d1ed3c28d569b826f763",
+      "installedAt": "2026-09-26T16:39:36.100Z",
+      "updatedAt": "2026-09-26T16:39:36.100Z"
+    },
+    "optimize-text-mesh-pro": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/optimize-text-mesh-pro/SKILL.md",
+      "skillFolderHash": "afe00079be95483d7c74149c6cf133dbe5c27693",
+      "installedAt": "2026-09-26T16:39:36.101Z",
+      "updatedAt": "2026-09-26T16:39:36.101Z"
+    },
+    "optimize-web": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/optimize-web/SKILL.md",
+      "skillFolderHash": "8b508399badcd2d9a95954a2ac07adb8d2e83eeb",
+      "installedAt": "2026-09-26T16:39:36.101Z",
+      "updatedAt": "2026-09-26T16:39:36.101Z"
+    },
+    "physics-3d-collision": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/physics-3d-collision/SKILL.md",
+      "skillFolderHash": "e604f1162fee9ae0e6727911fe9d98ef57f4b8df",
+      "installedAt": "2026-09-26T16:39:36.101Z",
+      "updatedAt": "2026-09-26T16:39:36.101Z"
+    },
+    "setup-multiplayer-services": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/setup-multiplayer-services/SKILL.md",
+      "skillFolderHash": "7d0171409caca588d2afaa40548ce816e5beb747",
+      "installedAt": "2026-09-26T16:39:36.101Z",
+      "updatedAt": "2026-09-26T16:39:36.101Z"
+    },
+    "setup-vivox-voice-chat": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/setup-vivox-voice-chat/SKILL.md",
+      "skillFolderHash": "e25d9e7d00e71695b0bcd62102ef7adead561dd8",
+      "installedAt": "2026-09-26T16:39:36.102Z",
+      "updatedAt": "2026-09-26T16:39:36.102Z"
+    },
+    "shader-graph-create-custom-node": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/shader-graph-create-custom-node/SKILL.md",
+      "skillFolderHash": "e0a3fe9af3e116b6eeba81ccfcc2037c331f3672",
+      "installedAt": "2026-09-26T16:39:36.102Z",
+      "updatedAt": "2026-09-26T16:39:36.102Z"
+    },
+    "sprite-editor": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/sprite-editor/SKILL.md",
+      "skillFolderHash": "3cb95da1bb8e6a12b882afba15d61e4c8d5ef57c",
+      "installedAt": "2026-09-26T16:39:36.102Z",
+      "updatedAt": "2026-09-26T16:39:36.102Z"
+    },
+    "sprite-segment-3x3grid": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/sprite-segment-3x3grid/SKILL.md",
+      "skillFolderHash": "1c8c982d3c75916f93277732a67a2b0f880a5ac2",
+      "installedAt": "2026-09-26T16:39:36.103Z",
+      "updatedAt": "2026-09-26T16:39:36.103Z"
+    },
+    "tilemap-palette-create": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/tilemap-palette-create/SKILL.md",
+      "skillFolderHash": "cebdb212dd9eef6a819ee06d57d36539914757ec",
+      "installedAt": "2026-09-26T16:39:36.103Z",
+      "updatedAt": "2026-09-26T16:39:36.103Z"
+    },
+    "tilemap-ruletile-createempty": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/tilemap-ruletile-createempty/SKILL.md",
+      "skillFolderHash": "0e010dba070e50fbdc1e9315bb929fe452732cfe",
+      "installedAt": "2026-09-26T16:39:36.103Z",
+      "updatedAt": "2026-09-26T16:39:36.103Z"
+    },
+    "tilemap-ruletile-createfromsegment": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/tilemap-ruletile-createfromsegment/SKILL.md",
+      "skillFolderHash": "c020f4b0552c792651d279959299c105a3ab7f65",
+      "installedAt": "2026-09-26T16:39:36.104Z",
+      "updatedAt": "2026-09-26T16:39:36.104Z"
+    },
+    "ui": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/ui/SKILL.md",
+      "skillFolderHash": "cce24701b5fe840585fdcc1c4fe0ec3c1ce2a02b",
+      "installedAt": "2026-09-26T16:39:36.104Z",
+      "updatedAt": "2026-09-26T16:39:36.104Z"
+    },
+    "ui-imgui": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/ui-imgui/SKILL.md",
+      "skillFolderHash": "0c2f39dd91d0e8e62795adf8a498466a076d9793",
+      "installedAt": "2026-09-26T16:39:36.104Z",
+      "updatedAt": "2026-09-26T16:39:36.104Z"
+    },
+    "ui-ugui": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/ui-ugui/SKILL.md",
+      "skillFolderHash": "c69b33fb9cd04311ef374aae3f98c21240caac0c",
+      "installedAt": "2026-09-26T16:39:36.105Z",
+      "updatedAt": "2026-09-26T16:39:36.105Z"
+    },
+    "ui-uitk": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/ui-uitk/SKILL.md",
+      "skillFolderHash": "4cc50fcdaa803ed121a1352be13944ee1151b868",
+      "installedAt": "2026-09-26T16:39:36.105Z",
+      "updatedAt": "2026-09-26T16:39:36.105Z"
+    },
+    "unity-cli": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/unity-cli/SKILL.md",
+      "skillFolderHash": "dbfb8c73087fa3e885c40689eb27e5867cf6f8bf",
+      "installedAt": "2026-09-26T16:39:36.105Z",
+      "updatedAt": "2026-09-26T16:39:36.105Z"
+    },
+    "unity-package-management": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/unity-package-management/SKILL.md",
+      "skillFolderHash": "b13979427c53f8adc781c0a8a7f8ec5fa862c293",
+      "installedAt": "2026-09-26T16:39:36.106Z",
+      "updatedAt": "2026-09-26T16:39:36.106Z"
+    },
+    "urp-postprocessing": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/urp-postprocessing/SKILL.md",
+      "skillFolderHash": "7392a27625aa0d258569327e5cbed701fd397caa",
+      "installedAt": "2026-09-26T16:39:36.106Z",
+      "updatedAt": "2026-09-26T16:39:36.106Z"
+    },
+    "validate-urp-render-graph-renderer-feature": {
+      "source": "Unity-Technologies/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Unity-Technologies/skills.git",
+      "skillPath": "skills/validate-urp-render-graph-renderer-feature/SKILL.md",
+      "skillFolderHash": "1d265f20fdfffacac894bbf90ddac756bf3c021c",
+      "installedAt": "2026-09-26T16:39:36.106Z",
+      "updatedAt": "2026-09-26T16:39:36.106Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-09-26T16:39:43.129Z",
+      "updatedAt": "2026-09-26T16:39:43.129Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "droid",
+    "gemini-cli",
+    "github-copilot",
+    "kilo",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}

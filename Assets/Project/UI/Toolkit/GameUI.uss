@@ -1,0 +1,584 @@
+/* =========================================================================
+   TENTWORKS COOKING ASSIGNMENT — UI TOOLKIT STYLESHEET
+   Kitchen / Cooking Rush Modern Theme
+   ========================================================================= */
+
+.screen-root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* =========================================================================
+   TOP HUD HEADER BAR
+   ========================================================================= */
+
+.hud-header {
+  width: 1920px;
+  height: 74px;
+  background-color: rgba(18, 24, 38, 0.96);
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(255, 179, 71, 0.7);
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Branding */
+.branding-container {
+  flex-direction: row;
+  align-items: center;
+}
+
+.chef-avatar {
+  width: 48px;
+  height: 48px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border-width: 2px;
+  border-color: #ffb347;
+  background-image: url("project://database/Assets/Project/UI/Sprites/chef_avatar.png");
+}
+
+.branding-text-group {
+  margin-left: 14px;
+  justify-content: center;
+}
+
+.brand-title {
+  font-size: 18px;
+  -unity-font-style: bold;
+  color: #ffb347;
+  letter-spacing: 1px;
+}
+
+.brand-subtitle {
+  font-size: 11px;
+  -unity-font-style: bold;
+  color: #d1d5db;
+  letter-spacing: 2px;
+}
+
+/* Stats & Controls Group */
+.stats-controls {
+  flex-direction: row;
+  align-items: center;
+}
+
+.stat-pill {
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(28, 38, 58, 0.92);
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.12);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 12px;
+}
+
+.stat-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.timer-icon {
+  background-image: url("project://database/Assets/Project/UI/icons/timer.svg");
+}
+
+.score-icon {
+  background-image: url("project://database/Assets/Project/UI/icons/score.svg");
+}
+
+.highscore-icon {
+  background-image: url("project://database/Assets/Project/UI/icons/play.svg");
+}
+
+.stat-meta {
+  justify-content: center;
+}
+
+.stat-label {
+  font-size: 10px;
+  -unity-font-style: bold;
+  color: #9ca3af;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  font-size: 16px;
+  -unity-font-style: bold;
+  color: #ffffff;
+}
+
+.hud-btn {
+  width: 44px;
+  height: 44px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(255, 152, 0, 0.18);
+  border-width: 1px;
+  border-color: #ffb347;
+  color: #ffb347;
+  font-size: 18px;
+  -unity-font-style: bold;
+  margin-left: 16px;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-out;
+}
+
+.hud-btn:hover {
+  background-color: rgba(255, 152, 0, 0.38);
+  color: #ffffff;
+}
+
+.hud-btn:active {
+  background-color: rgba(255, 152, 0, 0.6);
+}
+
+/* =========================================================================
+   ORDER RAIL & CARDS
+   ========================================================================= */
+
+.order-rail {
+  position: absolute;
+  top: 90px;
+  left: 28px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.order-card {
+  min-width: 170px;
+  background-color: rgba(25, 33, 52, 0.94);
+  border-width: 2px;
+  border-color: rgba(255, 179, 71, 0.7);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 14px;
+}
+
+.order-card-header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.order-card-title {
+  font-size: 13px;
+  -unity-font-style: bold;
+  color: #ffb347;
+}
+
+.order-card-timer {
+  font-size: 13px;
+  -unity-font-style: bold;
+  color: #ffffff;
+}
+
+.order-badges-row {
+  flex-direction: row;
+  align-items: center;
+}
+
+.ingredient-badge {
+  width: 44px;
+  height: 44px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  background-color: rgba(35, 45, 68, 0.9);
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.15);
+  margin-right: 8px;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.ingredient-badge.fulfilled {
+  border-color: #4caf50;
+  background-color: rgba(76, 175, 80, 0.28);
+}
+
+.badge-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.badge-vegetable {
+  background-image: url("project://database/Assets/Project/UI/Sprites/lettuce.png");
+}
+
+.badge-cheese {
+  background-image: url("project://database/Assets/Project/UI/Sprites/cheese.png");
+}
+
+.badge-meat {
+  background-image: url("project://database/Assets/Project/UI/Sprites/meat.png");
+}
+
+/* =========================================================================
+   PLAYER INTERACTION PROMPT
+   ========================================================================= */
+
+.player-interaction-container {
+  position: absolute;
+  bottom: 66px;
+  left: 0;
+  width: 1920px;
+  align-items: center;
+  justify-content: center;
+}
+
+.interaction-tooltip {
+  background-color: rgba(18, 24, 38, 0.94);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+.tooltip-label {
+  font-size: 13px;
+  -unity-font-style: bold;
+  color: #ffffff;
+}
+
+.action-buttons-row {
+  flex-direction: row;
+  align-items: center;
+}
+
+.action-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 14px;
+  -unity-font-style: bold;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-width: 1px;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-out;
+}
+
+.pick-btn {
+  background-color: #2e7d32;
+  border-color: #66bb6a;
+  color: #ffffff;
+}
+
+.pick-btn:hover {
+  background-color: #388e3c;
+}
+
+.pick-btn:active {
+  background-color: #1b5e20;
+}
+
+.drop-btn {
+  background-color: #e65100;
+  border-color: #ffa726;
+  color: #ffffff;
+}
+
+.drop-btn:hover {
+  background-color: #f57c00;
+}
+
+.drop-btn:active {
+  background-color: #bf360c;
+}
+
+.action-btn:disabled {
+  opacity: 0.4;
+}
+
+/* =========================================================================
+   BOTTOM LEGEND BAR
+   ========================================================================= */
+
+.bottom-legend-bar {
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  width: 1920px;
+  align-items: center;
+  justify-content: center;
+}
+
+.legend-bar-inner {
+  flex-direction: row;
+  background-color: rgba(14, 18, 28, 0.88);
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.12);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.legend-chip {
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.legend-key {
+  background-color: rgba(255, 255, 255, 0.18);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 11px;
+  -unity-font-style: bold;
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.legend-desc {
+  font-size: 11px;
+  color: #d1d5db;
+}
+
+/* =========================================================================
+   MODAL OVERLAYS (START, PAUSE, ROUND COMPLETE)
+   ========================================================================= */
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  background-color: rgba(8, 11, 20, 0.88);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-card {
+  width: 540px;
+  background-color: rgba(22, 30, 48, 0.98);
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-width: 2px;
+  border-color: rgba(255, 179, 71, 0.7);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  align-items: center;
+}
+
+.modal-badge-icon {
+  width: 64px;
+  height: 64px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-width: 2px;
+  border-color: #ffb347;
+  margin-bottom: 16px;
+}
+
+.chef-badge {
+  background-image: url("project://database/Assets/Project/UI/Sprites/chef_avatar.png");
+}
+
+.modal-title {
+  font-size: 28px;
+  -unity-font-style: bold;
+  color: #ffb347;
+  margin-bottom: 6px;
+  -unity-text-align: middle-center;
+}
+
+.modal-subtitle {
+  font-size: 13px;
+  -unity-font-style: bold;
+  color: #d1d5db;
+  margin-bottom: 16px;
+  -unity-text-align: middle-center;
+  letter-spacing: 1px;
+}
+
+.modal-description {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-bottom: 24px;
+  -unity-text-align: middle-center;
+  white-space: normal;
+}
+
+.modal-button-stack {
+  width: 100%;
+  align-items: stretch;
+}
+
+.modal-action-btn {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 15px;
+  -unity-font-style: bold;
+  border-width: 1px;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-out;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.primary-btn {
+  background-color: #ff9800;
+  border-color: #ffb347;
+  color: #111827;
+}
+
+.primary-btn:hover {
+  background-color: #ffa726;
+}
+
+.primary-btn:active {
+  background-color: #f57c00;
+}
+
+.secondary-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.secondary-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.secondary-btn:active {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.danger-btn {
+  background-color: rgba(239, 83, 80, 0.18);
+  border-color: rgba(239, 83, 80, 0.4);
+  color: #ef5350;
+}
+
+.danger-btn:hover {
+  background-color: rgba(239, 83, 80, 0.35);
+  color: #ffffff;
+}
+
+.danger-btn:active {
+  background-color: rgba(239, 83, 80, 0.5);
+}
+
+.score-highlight-container {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.score-title {
+  font-size: 12px;
+  -unity-font-style: bold;
+  color: #9ca3af;
+  letter-spacing: 2px;
+}
+
+.score-number {
+  font-size: 44px;
+  -unity-font-style: bold;
+  color: #ffb347;
+}
+
+.new-highscore-badge {
+  background-color: rgba(255, 179, 71, 0.18);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-width: 1px;
+  border-color: #ffb347;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+}
+
+.new-highscore-text {
+  font-size: 14px;
+  -unity-font-style: bold;
+  color: #ffb347;
+}
+
+/* =========================================================================
+   UTILITY & VISIBILITY OVERRIDES
+   ========================================================================= */
+
+.hidden,
+.modal-overlay.hidden,
+.order-card.hidden,
+.ingredient-badge.hidden,
+.screen-root .hidden {
+  display: none;
+}
+
